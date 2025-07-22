@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 
@@ -12,4 +14,5 @@ class LoginPage:
     def login(self, username: str, password: str):
         self.driver.find_element(*self.username_input).send_keys(username)
         self.driver.find_element(*self.password_input).send_keys(password)
+
         self.driver.find_element(*self.login_button).click()

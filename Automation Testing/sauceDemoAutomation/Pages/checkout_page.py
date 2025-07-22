@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.ui import WebDriverWait
@@ -20,6 +22,7 @@ class CheckoutPage:
         self.driver.find_element(*self.first_name).send_keys(first)
         self.driver.find_element(*self.last_name).send_keys(last)
         self.driver.find_element(*self.postal_code).send_keys(zip_code)
+
         self.driver.find_element(*self.continue_button).click()
 
     def finish_order(self):

@@ -1,3 +1,5 @@
+import time
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
@@ -18,6 +20,7 @@ class ProductsPage:
 
     def logout(self):
         self.driver.find_element(By.ID, "react-burger-menu-btn").click()
+
         WebDriverWait(self.driver, 5).until(
             EC.element_to_be_clickable((By.ID, "logout_sidebar_link"))
         ).click()
