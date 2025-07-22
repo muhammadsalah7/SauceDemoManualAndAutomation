@@ -28,7 +28,7 @@ venv\Scripts\activate (on Windows)
 pip install -r requirements.txt
 - Run the test:
 pytest tests/test_place_order.py
-The script will launch Chrome, perform login, add an item to the cart, complete checkout, and log out.
+- The script will launch Chrome, perform login, add an item to the cart, complete checkout, and log out.
 
 
 ---
