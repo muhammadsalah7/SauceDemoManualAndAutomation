@@ -17,7 +17,21 @@ The automation script simulates a full user journey:
 The script is built using **Python** and **Selenium WebDriver**, following the **Page Object Model (POM)** design pattern for modularity and maintainability.
 
 ---
+## 📦 How to Run the Automation Script
+- Clone the repository:
+git clone https://github.com/muhammadsalah7/Eyego-Internship-Task.git
+cd Eyego-Internship-Task
+- Create and activate a virtual environment:
+python -m venv venv
+venv\Scripts\activate (on Windows)
+- Install dependencies:
+pip install -r requirements.txt
+- Run the test:
+pytest tests/test_place_order.py
+The script will launch Chrome, perform login, add an item to the cart, complete checkout, and log out.
 
+
+---
 ## 🧠 **Tools & Technologies Used**
 
 - Python 3.11 — scripting language  
