@@ -37,16 +37,15 @@ A **standard user** logs in, adds a product to the cart, checks out, and logs ou
    ```bash
    git clone https://github.com/your-username/sauceDemoAutomation.git
    cd sauceDemoAutomation
-2- **Create and activate a virtual environment**
+2. **Create and activate a virtual environment**
 python -m venv venv
 venv\Scripts\activate  # On Windows
-3- **Install dependencies**
+3. **Install dependencies**
 pip install -r requirements.txt
 
 
-4- **Run the test**
+4. **Run the test**
 pytest tests/test_place_order.py
-
 
 
 ##📁 Requirements
