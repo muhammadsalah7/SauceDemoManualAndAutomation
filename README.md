@@ -51,7 +51,6 @@ Test cases were documented clearly and executed to verify expected behavior acro
 - Chrome browser is installed and accessible  
 - Internet connection is available during test execution  
 - No CAPTCHA or multi-factor authentication is required  
-- Chrome security alerts (e.g., password breach warnings) are disabled via ChromeOptions
 
 ---
 
