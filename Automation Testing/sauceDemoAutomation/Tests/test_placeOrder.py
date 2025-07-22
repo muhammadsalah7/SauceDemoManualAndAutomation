@@ -17,10 +17,9 @@ def test_place_order(driver):
 
     cart = CartPage(driver)
     cart.proceed_to_checkout()
+    
     checkout = CheckoutPage(driver)
-
     checkout.fill_checkout_info("John", "Doe", "12345")
-
     checkout.finish_order()
 
 
