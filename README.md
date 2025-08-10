@@ -1,6 +1,6 @@
-## 🧪 **Eyego Internship Task — SauceDemo Automation & Manual Testing**
+## 🧪 **SauceDemo Automation & Manual Testing**
 
-This project was completed as part of the Eyego internship program. It includes both **manual testing documentation** and a **Selenium-based automation script** for the [SauceDemo](https://www.saucedemo.com/) web application.
+This project  includes both **manual testing documentation** and a **Selenium-based automation script** for the [SauceDemo](https://www.saucedemo.com/) web application.
 
 ---
 
@@ -77,4 +77,4 @@ Focused on clean automation frameworks, detailed manual testing, and professiona
 
 ## 📜 **License**
 
-This project is for educational and internship evaluation purposes.
+This project is for educational purposes.
