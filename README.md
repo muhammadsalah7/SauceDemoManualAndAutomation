@@ -19,8 +19,8 @@ The script is built using **Python** and **Selenium WebDriver**, following the *
 ---
 ## 📦 How to Run the Automation Script
 - Clone the repository:
-git clone https://github.com/muhammadsalah7/Eyego-Internship-Task.git
-cd Eyego-Internship-Task
+git clone https://github.com/muhammadsalah7/SauceDemoManualAndAutomation.git
+cd SauceDemoManualAndAutomation
 - Create and activate a virtual environment:
 python -m venv venv
 venv\Scripts\activate (on Windows)
