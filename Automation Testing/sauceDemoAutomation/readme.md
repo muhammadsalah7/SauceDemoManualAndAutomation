@@ -21,7 +21,7 @@ A **standard user** logs in, adds a product to the cart, checks out, and logs ou
 
 ## 📦 Installation & Setup  
 1. **Clone the repository**  
-   `git clone https://github.com/your-username/sauceDemoAutomation.git`  
+   `git clone https://github.com/muhammadsalah7/sauceDemoAutomation.git`  
    `cd sauceDemoAutomation`
 
 2. **Create and activate a virtual environment**  
